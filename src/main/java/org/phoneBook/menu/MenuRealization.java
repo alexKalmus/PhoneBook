@@ -1,11 +1,16 @@
-package org.phoneBook;
+package org.phoneBook.menu;
 
+import org.phoneBook.DAO.ContactName;
+import org.phoneBook.DAO.ContactPhones;
 import org.phoneBook.DAO.ContactsDAO;
+import org.phoneBook.search.Search;
+import org.phoneBook.search.SearchByName;
+import org.phoneBook.search.SearchByPhone;
 
 import java.util.Map;
 import java.util.Scanner;
 
-public class MenuRealization implements PhoneBookMenu{
+public class MenuRealization implements PhoneBookMenu {
     @Override
     public void showContacts(ContactsDAO contacts) {
         Map<ContactName, ContactPhones> show = contacts.getAll();

@@ -1,4 +1,4 @@
-package org.phoneBook;
+package org.phoneBook.search;
 
 import org.phoneBook.DAO.ContactsDAO;
 

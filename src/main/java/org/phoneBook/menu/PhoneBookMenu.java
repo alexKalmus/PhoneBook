@@ -1,5 +1,7 @@
-package org.phoneBook;
+package org.phoneBook.menu;
 
+import org.phoneBook.DAO.ContactName;
+import org.phoneBook.DAO.ContactPhones;
 import org.phoneBook.DAO.ContactsDAO;
 
 public interface PhoneBookMenu {

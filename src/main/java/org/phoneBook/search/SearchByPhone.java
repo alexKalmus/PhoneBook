@@ -1,6 +1,9 @@
-package org.phoneBook;
+package org.phoneBook.search;
 
+import org.phoneBook.DAO.ContactName;
+import org.phoneBook.DAO.ContactPhones;
 import org.phoneBook.DAO.ContactsDAO;
+import org.phoneBook.search.Search;
 
 import java.util.List;
 import java.util.Map;

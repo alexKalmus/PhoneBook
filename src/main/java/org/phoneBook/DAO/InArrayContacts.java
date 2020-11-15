@@ -1,8 +1,5 @@
 package org.phoneBook.DAO;
 
-import org.phoneBook.ContactName;
-import org.phoneBook.ContactPhones;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

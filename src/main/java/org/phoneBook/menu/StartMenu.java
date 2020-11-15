@@ -1,5 +1,7 @@
-package org.phoneBook;
+package org.phoneBook.menu;
 
+import org.phoneBook.DAO.ContactName;
+import org.phoneBook.DAO.ContactPhones;
 import org.phoneBook.DAO.ContactsDAO;
 
 import java.util.Scanner;
@@ -33,8 +35,8 @@ public class StartMenu {
             case 2: addNewContact(); break;
             case 3: addNumberToContact(); break;
             case 4: phoneBookMenu.searchContact(contactsDAO); break;
-            case 5: deleteContactByName();
-            case 6: deletePhoneOfContact();
+            case 5: deleteContactByName(); break;
+            case 6: deletePhoneOfContact(); break;
         }
         if(choice<1 || choice>6) break;
         }
